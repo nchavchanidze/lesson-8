@@ -1,0 +1,58 @@
+.flex-container {
+	width: 100%;
+	background-color: red;
+	display: flex;
+	height: 800px;
+	justify-content: flex-start;
+	align-items: flex-start;
+/*	flex-direction: column;*/
+/*	gap: 50px;*/
+	flex-wrap: wrap;
+	column-gap: 25px;
+	row-gap: 30px;
+}
+
+.flex-container div {
+/*	width: 150px;*/
+/*	height: 150px;*/
+	background-color: white;
+	text-align: center;
+	font-size: 25px;
+/*	flex-grow: 1;*/
+}
+/* .div-5 {
+	flex-grow: 3;
+} */
+
+/* .flex-container div:first-child {
+	width: 100px;
+	height: 100px;
+	background-color: greenyellow;
+}
+.flex-container div:last-child {
+	width: 50px;
+	height: 50px;
+	background-color: lightseagreen;
+}
+
+.flex-container div:nth-child(2) {
+	width: 200px;
+	height: 200px;
+	background-color: aquamarine;
+}
+
+.flex-container div:nth-child(5) {
+	font-size: 40px;
+	color: greenyellow;
+} */
+
+.flex-container div:nth-child(odd) {
+	width: 50px;
+	height: 50px;
+	background-color: green;
+}
+.flex-container div:nth-child(even) {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+}
